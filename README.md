@@ -12,6 +12,11 @@ the app can more easily map user input to a specific command
 
 <br>
 
+## Showcase
+
+<img src="showcase/app_video.gif" width="250"  alt="gif app"/>
+  
+
 ## What's Included
 
 - A basic, yet fully-functional, app.
