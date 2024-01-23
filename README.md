@@ -34,7 +34,7 @@ the app can more easily map user input to a specific command
 ```
 MIT License
 
-Copyright (c) 2023 A. Veletanlic
+Copyright (c) 2024 A. Veletanlic
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
