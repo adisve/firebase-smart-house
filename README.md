@@ -15,7 +15,19 @@ the app can more easily map user input to a specific command
 ## Showcase
 
 <img src="showcase/app_video.gif" width="250"  alt="gif app"/>
-  
+
+<br>
+
+## How to use
+
+In order to run the app itself you need a `local.properties` file in the root of the project and a `google-services.json` file under the app/ folder
+
+local.properties:
+```
+sdk.dir=<your_android_sdk_directory>
+gpt.api.key=<your_gpt_api_key>
+firebase.database.url=<your_firebase_database_url>
+```
 
 ## What's Included
 
