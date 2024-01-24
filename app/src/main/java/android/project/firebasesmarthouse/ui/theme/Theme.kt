@@ -20,10 +20,37 @@ private val LightColorScheme = lightColorScheme(
     secondary = Secondary,
     background = Background,
     surface = Surface,
+    error = Error,
     onPrimary = OnPrimary,
     onSecondary = OnSecondary,
     onSurface = OnSurface,
+    onError = OnError,
+    tertiary = Tertiary,
+    onTertiary = OnTertiary,
+    primaryContainer = PrimaryContainer,
+    onPrimaryContainer = OnPrimaryContainer,
+    secondaryContainer = SecondaryContainer,
+    onSecondaryContainer = OnSecondaryContainer
 )
+
+private val DarkColorScheme = darkColorScheme(
+    primary = DarkPrimary,
+    secondary = DarkSecondary,
+    background = DarkBackground,
+    surface = DarkSurface,
+    error = Error,
+    onPrimary = DarkOnPrimary,
+    onSecondary = DarkOnSecondary,
+    onSurface = DarkOnSurface,
+    onError = OnError,
+    tertiary = Tertiary,
+    onTertiary = OnTertiary,
+    primaryContainer = DarkPrimaryContainer,
+    onPrimaryContainer = DarkOnPrimaryContainer,
+    secondaryContainer = DarkSecondaryContainer,
+    onSecondaryContainer = DarkOnSecondaryContainer
+)
+
 
 @Composable
 fun FirebaseSmartHouseTheme(
@@ -37,7 +64,7 @@ fun FirebaseSmartHouseTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
 
-        darkTheme -> LightColorScheme
+        darkTheme -> DarkColorScheme
         else -> LightColorScheme
     }
     val view = LocalView.current

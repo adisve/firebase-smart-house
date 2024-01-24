@@ -102,7 +102,7 @@ fun SpeechRecognitionButton(
                     imageVector = Icons.Rounded.Mic,
                     contentDescription = "microphone",
                     modifier = Modifier.padding(8.dp).size(64.dp),
-                    tint = MaterialTheme.colorScheme.primary,
+                    tint = MaterialTheme.colorScheme.onPrimaryContainer,
                 )
             }
         }
